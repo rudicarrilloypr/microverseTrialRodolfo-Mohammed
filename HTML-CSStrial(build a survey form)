@@ -15,16 +15,24 @@
     <script  src="js/index.js"></script>
    <form id="survey-form"> 
      <input type="text" id="name" required>
-<input type="email" name="email1" id="email" required
+<input type="email" name="email" id="email" required
 
 >
-<input type="number" name="number" id="number">
+<div>
+  <label for="name" id="name-label">Name:</label>
+<div>
+<input type="number" name="number" id="number" min="5" max="100">
+     </div>
        <div>
          <label for="email"
          id="email-label"> Email: </label>
          <input type="email id="email"
          placeholder="Enter your email adress" required>
 
+         <div>
+           <label for="number" id="number-label"> Age:</label>
+           <input type="number" id="number" min="18" max="100" placeholder="Enter your age">
+</div>
         
   </body>
 </html>
