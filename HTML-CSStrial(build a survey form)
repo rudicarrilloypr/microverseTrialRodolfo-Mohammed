@@ -15,33 +15,53 @@
     <script  src="js/index.js"></script>
    <form id="survey-form"> 
      <input type="text" id="name"  required 
-  placeholder="Enter your full name‏"
-     
-     >
+  placeholder="Enter your full name‏">
 <input type="email" name="email" id="email" required
-  placeholder="Enter your email‏"
+  placeholder="Enter your email‏">
 
->
 <div>
   <label for="name" id="name-label"
-  
+
   >Name:</label>
+  </div>
 <div>
 <input type="number" name="number" id="number" min="5" max="100"
-  placeholder="Enter age‏"
-
->
+  placeholder="Enter age‏">
      </div>
        <div>
          <label for="email"
          id="email-label"> Email: </label>
          <input type="email id="email"
          placeholder="Enter your email adress" required>
+         </div>
 
          <div>
            <label for="number" id="number-label"> Age:</label>
            <input type="number" id="number" min="18" max="100" placeholder="Enter your age">
 </div>
-        
+<div>
+  <label for="dropdown" id="dropdown-label">How did you hear about us? </label>
+  <select id="dropdown">
+    <option value="friend">From a friend </option>
+     <option value="ad">From an advertisement </option>
+  </div>
+
+  <div>
+    <p>What type of content do you prefer?</p>
+    <input type="radio" id="videos" name="content-preference" value="video">
+    <label for="videos">Videos</label>
+    <input type="radio" id="blog-posts" name="content-preference" value="blog-posts">
+    <label for="blog-posts">Blogs</label>
+    </div>
+
+  <div>
+    <p>What topics are you interested in?</p>
+    <input type="checkbox" id="technology" name="interests" value="technology">
+    <label for="technology">Technology</label>
+    <input type="checkbox" id="sports" name="interests" value="sports">
+    <label for="sports">Sports</label>
+
+  
+      </form>  
   </body>
 </html>
