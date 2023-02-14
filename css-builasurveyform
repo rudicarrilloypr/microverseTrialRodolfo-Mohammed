@@ -1,0 +1,15 @@
+body {
+font-family: Arial, helvetica;
+padding: 20px;
+}
+
+h1 {
+text-align: center;
+margin-bottom: 20px;
+}
+
+#survey-form {
+width: 500px;
+margin: 0 auto;
+padding: 20px;
+}
