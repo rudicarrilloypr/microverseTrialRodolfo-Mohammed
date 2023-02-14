@@ -13,7 +13,12 @@
 
     <p>hello,world we are software developers </p>
     <script  src="js/index.js"></script>
-   <form id="survey-form">
+   <form id="survey-form"> 
+     <input type="text" id="name" required>
+<input type="email" name="email1" id="email" required
+
+>
+<input type="number" name="number" id="number">
        <div>
          <label for="email"
          id="email-label"> Email: </label>
