@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Survey Form</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css-builasurveyform.css">
   </head>
   <body>
     <h1 id="title">Survey Form</h1>
