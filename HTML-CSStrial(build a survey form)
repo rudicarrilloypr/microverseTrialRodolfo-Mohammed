@@ -60,8 +60,8 @@
     <label for="technology">Technology</label>
     <input type="checkbox" id="sports" name="interests" value="sports">
     <label for="sports">Sports</label>
-
-  
+<textarea></textarea>
+  <button id="submit"></button>
       </form>  
   </body>
 </html>
