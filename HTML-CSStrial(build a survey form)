@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -12,7 +11,15 @@
     <h1 id="title"> one</h1>
 <p id="description">line</p>
 
-    <p>hello,world we are software devaplors </p>
+    <p>hello,world we are software developers </p>
     <script  src="js/index.js"></script>
+   <form id="survey-form">
+       <div>
+         <label for="email"
+         id="email-label"> Email: </label>
+         <input type="email id="email"
+         placeholder="Enter your email adress" required>
+
+        
   </body>
 </html>
