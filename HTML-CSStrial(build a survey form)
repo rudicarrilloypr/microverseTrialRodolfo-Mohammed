@@ -1,67 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/css-builasurveyform.css">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
   </head>
-
   <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <h1 id="title"> one</h1>
-<p id="description">line</p>
-
-    <p>hello,world we are software developers </p>
-    <script  src="js/index.js"></script>
-   <form id="survey-form"> 
-     <input type="text" id="name"  required 
-  placeholder="Enter your full name‏">
-<input type="email" name="email" id="email" required
-  placeholder="Enter your email‏">
-
-<div>
-  <label for="name" id="name-label"
-
-  >Name:</label>
-  </div>
-<div>
-<input type="number" name="number" id="number" min="5" max="100"
-  placeholder="Enter age‏">
-     </div>
-       <div>
-         <label for="email"
-         id="email-label"> Email: </label>
-         <input type="email id="email"
-         placeholder="Enter your email adress" required>
-         </div>
-
-         <div>
-           <label for="number" id="number-label"> Age:</label>
-           <input type="number" id="number" min="18" max="100" placeholder="Enter your age">
-</div>
-<div>
-  <label for="dropdown" id="dropdown-label">How did you hear about us? </label>
-  <select id="dropdown">
-    <option value="friend">From a friend </option>
-     <option value="ad">From an advertisement </option>
-  </div>
-
-  <div>
-    <p>What type of content do you prefer?</p>
-    <input type="radio" id="videos" name="content-preference" value="video">
-    <label for="videos">Videos</label>
-    <input type="radio" id="blog-posts" name="content-preference" value="blog-posts">
-    <label for="blog-posts">Blogs</label>
-    </div>
-
-  <div>
-    <p>What topics are you interested in?</p>
-    <input type="checkbox" id="technology" name="interests" value="technology">
-    <label for="technology">Technology</label>
-    <input type="checkbox" id="sports" name="interests" value="sports">
-    <label for="sports">Sports</label>
-<textarea></textarea>
-  <button id="submit"></button>
-      </form>  
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please fill out the form below to help us improve our services:</p>
+    <form id="survey-form">
+      <div>
+        <label for="name" id="name-label">Name:</label>
+        <input type="text" id="name" required placeholder="Enter your full name">
+      </div>
+      <div>
+        <label for="email" id="email-label">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email address" required>
+      </div>
+      <div>
+        <label for="number" id="number-label">Age:</label>
+        <input type="number" id="number" min="18" max="100" placeholder="Enter your age">
+      </div>
+      <div>
+        <label for="dropdown" id="dropdown-label">How did you hear about us?</label>
+        <select id="dropdown">
+          <option value="friend">From a friend</option>
+          <option value="ad">From an advertisement</option>
+        </select>
+      </div>
+      <div>
+        <p>What type of content do you prefer?</p>
+        <input type="radio" id="blog-posts" name="content-preference" value="blog-posts">
+        <label for="blog-posts">Blog posts</label>
+        <input type="radio" id="videos" name="content-preference" value="videos">
+        <label for="videos">Videos</label>
+      </div>
+      <div>
+        <p>What topics are you interested in?</p>
+        <input type="checkbox" id="technology" name="interests" value="technology">
+        <label for="technology">Technology</label>
+        <input type="checkbox" id="health" name="interests" value="health">
+        <label for="health">Health</label>
+        <input type="checkbox" id="lifestyle" name="interests" value="lifestyle">
+        <label for="lifestyle">Lifestyle</label>
+      </div>
+      <div>
+        <label for="comments">Additional comments:</label>
+        <textarea id="comments"></textarea>
+      </div>
+      <button type="submit" id="submit">Submit</button>
+    </form>
   </body>
 </html>
